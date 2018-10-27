@@ -1,0 +1,10 @@
+CREATE DATABASE dbDevelopers;
+
+CREATE TABLE developers(
+   ID   INT               NOT NULL,
+   NAME VARCHAR (100)     NOT NULL,
+   SPECIALTY VARCHAR(100) NOT NULL,
+   EXPERIENCE  INT        NOT NULL,
+   SALARY   INT,       
+   PRIMARY KEY (ID)
+);
