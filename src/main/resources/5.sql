@@ -1,4 +1,4 @@
-SELECT comp.companies,comp.customers,MIN(comp.cost)
+SELECT comp.companies,comp.customers,min(cost)
   FROM
   (SELECT total.companies companies ,total.customers customers,cost
 FROM (SELECT companies.NAME companies,customers.NAME customers,sum(projects.COST)  cost
